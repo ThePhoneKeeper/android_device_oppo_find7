@@ -21,12 +21,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oppo/find7/find7.mk)
 
 # Inherit some common Aex stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+$(call inherit-product, vendor/arrow/config/common.mk)
 
-# Enable root
-DEFAULT_ROOT_METHOD := magisk
-
-PRODUCT_NAME := aosp_find7
+PRODUCT_NAME := arrow_find7
 PRODUCT_DEVICE := find7
 PRODUCT_BRAND := OPPO
 PRODUCT_MANUFACTURER := OPPO
