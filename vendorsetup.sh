@@ -1,1 +1,1 @@
-add_lunch_combo aosp_find7-userdebug
+add_lunch_combo validus_find7-userdebug
