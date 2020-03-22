@@ -56,7 +56,7 @@ TARGET_SYSTEM_PROP += device/oppo/find7/system.prop
 TARGET_RECOVERY_FSTAB := device/oppo/find7/rootdir/etc/fstab.recovery
 
 # Shipping API
-PRODUCT_SHIPPING_API_LEVEL := 18
+PRODUCT_SHIPPING_API_LEVEL := 19
 
 # TWRP
 ifeq ($(WITH_TWRP),true)
