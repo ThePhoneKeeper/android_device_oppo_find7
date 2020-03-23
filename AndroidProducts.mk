@@ -15,3 +15,6 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_find7.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_find7-userdebug
