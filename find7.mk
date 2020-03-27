@@ -63,6 +63,7 @@ PRODUCT_PACKAGES += \
     Recorder
 
 # Call the proprietary setup
+$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_k.mk)
 $(call inherit-product, vendor/oppo/find7/find7-vendor.mk)
 
 # Inherit from msm8974-common
